@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.digitalClockWrapper {
+    width: 30%;
+    margin: auto;
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.digitalClockWrapper h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.digitalClockWrapper p {
+    color: white;
+    font-size: 20px;
+}
+
+.digitalClockWrapper h1 {
+    margin-bottom: 2rem;
+}
